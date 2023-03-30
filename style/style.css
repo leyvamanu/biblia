@@ -1,0 +1,75 @@
+/*@tailwind.js base;*/
+/*@tailwind.js components;*/
+/*@tailwind.js utilities;*/
+
+/*.button-primary {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-dark-gray hover:bg-lois-light-gray active:bg-lois-black rounded-full shadow-md h-10 px-8;*/
+/*}*/
+
+/*.button-secondary {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-red hover:bg-lois-pink active:bg-lois-brown rounded-full shadow-md h-10 px-8;*/
+/*}*/
+
+/*.button-tertiary {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-brown hover:bg-lois-pink active:bg-lois-red rounded-full shadow-md h-10 px-8;*/
+/*}*/
+
+/*.button-primary-icon {*/
+/*    @apply cursor-pointer bg-lois-white text-lois-red font-bold hover:bg-lois-pink active:bg-lois-dark-gray border-2 border-lois-red  p-1 h-10;*/
+/*}*/
+
+/*.button-primary-home {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-dark-gray hover:bg-lois-light-gray active:bg-lois-black rounded-full shadow-md md:py-4 py-3 px-4 md:px-14;*/
+/*}*/
+
+/*.button-secondary-home {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-brown hover:bg-lois-pink active:bg-lois-red rounded-full shadow-md md:py-4 py-3 px-4 md:px-14;*/
+/*}*/
+
+/*.button-tertiary-home {*/
+/*    @apply cursor-pointer flex justify-center items-center font-bold text-base text-lois-white bg-lois-red hover:bg-lois-pink active:bg-lois-brown rounded-full shadow-md md:py-4 py-3 px-4 md:px-14;*/
+/*}*/
+
+/*.pay-button {*/
+/*    @apply cursor-pointer bg-lois-pink text-lois-black font-bold hover:bg-lois-red active:bg-lois-black active:text-lois-white border-2 border-lois-black p-3 focus:outline-none w-44*/
+/*}*/
+
+/*.button-back-office-primary {*/
+/*    @apply cursor-pointer bg-lois-black text-lois-white font-bold hover:text-lois-black hover:bg-lois-red border-2 border-lois-black p-4 h-16*/
+/*}*/
+
+/*.button-back-office-secondary {*/
+/*    @apply cursor-pointer bg-lois-red text-black font-bold hover:text-lois-red hover:bg-lois-black border-2 border-lois-black p-4 h-16*/
+/*}*/
+
+@font-face {
+    font-family: "Le Havre Rounded Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Le Havre Rounded W00 Regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/Le Havre Rounded W00 Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Le Havre Rounded W00 Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Le Havre Rounded W00 Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Le Havre Rounded W00 Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Le Havre Rounded W00 Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+*::selection {
+    background-color: #f8c6c6;
+}
+
+.le-havre {
+    font-family: 'Le Havre Rounded Regular', sans-serif !important;
+    text-transform: uppercase;
+}
+/*dibujar circulo de 50px*/
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
