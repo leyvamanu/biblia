@@ -1,11 +1,19 @@
 window.addEventListener('load', function () {
-    var copy = document.getElementsByClassName('copy');
+    const copyButtons = document.getElementsByClassName('copy-button');
+    for (let copyButton of copyButtons) {
+        copyButton.addEventListener('click', function () {
+            const copyText = copyButton.previousElementSibling;
+            navigator.clipboard.writeText(copyText.innerHTML);
+
+            const copyMessage = copyButton.nextElementSibling;
+            copyMessage.classList.remove('hidden');
+            hideElement(copyMessage, 2000);
+        });
+    }
     
-    copy.addEventListener('click', function () {
-        alert('copy');
-        // var input = document.getElementById('input');
-        // var value = input.value;
-        // var result = document.getElementById('result');
-        // result.innerHTML = value;
-    });
-}
+    function hideElement(element, time) {
+        setTimeout(function () {
+            element.classList.add('hidden');
+        }, time);
+    }
+});
