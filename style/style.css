@@ -84,3 +84,38 @@
 .tertiary-button:active {
     background-color: #e63b3c;
 }
+
+.lois-h1 {
+    /*font-size: 72px;*/
+    font-size: 4.5rem;
+}
+
+.lois-h2 {
+    /*font-size: 56px;*/
+    font-size: 3.5rem;
+}
+
+.lois-h3 {
+    /*font-size: 48px;*/
+    font-size: 3rem;
+}
+
+.lois-h4 {
+    /*font-size: 32px;*/
+    font-size: 2rem;
+}
+
+.lois-h5 {
+    /*font-size: 28px;*/
+    font-size: 1.75rem;
+}
+
+.lois-p {
+    /*font-size: 24px;*/
+    font-size: 1.5rem;
+}
+
+.lois-p-sm {
+    /*font-size: 24px;*/
+    font-size: 1rem;
+}
