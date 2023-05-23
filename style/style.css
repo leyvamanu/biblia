@@ -30,9 +30,9 @@
     border-radius: 50%;
 }
 
-.primary-button {
-    align-items: center;
-    background-color: #333333;
+.primary-button,
+.secondary-button,
+.tertiary-button {
     border-radius: 9999px;
     color: #ffffff;
     cursor: pointer;
@@ -44,6 +44,11 @@
     line-height: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.primary-button {
+    align-items: center;
+    background-color: #333333;
 }
 
 .primary-button:hover {
@@ -57,17 +62,6 @@
 .secondary-button {
     align-items: center;
     background-color: #e63b3c;
-    border-radius: 9999px;
-    color: #ffffff;
-    cursor: pointer;
-    display: flex;
-    font-size: 1rem;
-    font-weight: 700;
-    height: 2.5rem;
-    justify-content: center;
-    line-height: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .secondary-button:hover {
@@ -81,17 +75,6 @@
 .tertiary-button {
     align-items: center;
     background-color: #603535;
-    border-radius: 9999px;
-    color: #ffffff;
-    cursor: pointer;
-    display: flex;
-    font-size: 1rem;
-    font-weight: 700;
-    height: 2.5rem;
-    justify-content: center;
-    line-height: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .tertiary-button:hover {
